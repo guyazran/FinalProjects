@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F72A2351C01011C004FF750 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F72A2341C01011C004FF750 /* SettingsController.swift */; };
+		3FB0578D1BFF5EAA000EDA5F /* DecimalInputFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB0578C1BFF5EAA000EDA5F /* DecimalInputFilter.swift */; };
+		3FB057931BFF6F6E000EDA5F /* DatePickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB057921BFF6F6E000EDA5F /* DatePickerDialog.swift */; };
+		3FB057951BFF7E09000EDA5F /* UICheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB057941BFF7E09000EDA5F /* UICheckBox.swift */; };
+		3FCF5C4F1C00614800D33086 /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF5C4E1C00614800D33086 /* Money.swift */; };
+		3FCF5C511C00615D00D33086 /* Salary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF5C501C00615D00D33086 /* Salary.swift */; };
+		3FCF5C531C00617100D33086 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF5C521C00617100D33086 /* Currency.swift */; };
+		3FFC9BB61BFC80A3007CD981 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC9BB51BFC80A3007CD981 /* AppDelegate.swift */; };
+		3FFC9BB81BFC80A3007CD981 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC9BB71BFC80A3007CD981 /* ViewController.swift */; };
+		3FFC9BBB1BFC80A3007CD981 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFC9BB91BFC80A3007CD981 /* Main.storyboard */; };
+		3FFC9BBD1BFC80A3007CD981 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FFC9BBC1BFC80A3007CD981 /* Assets.xcassets */; };
+		3FFC9BC01BFC80A3007CD981 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFC9BBE1BFC80A3007CD981 /* LaunchScreen.storyboard */; };
+		3FFC9BCB1BFC80A3007CD981 /* Salary_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC9BCA1BFC80A3007CD981 /* Salary_TrackerTests.swift */; };
+		3FFC9BD61BFC80A3007CD981 /* Salary_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC9BD51BFC80A3007CD981 /* Salary_TrackerUITests.swift */; };
+		3FFC9BE51BFC80FF007CD981 /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC9BE41BFC80FF007CD981 /* Clock.swift */; };
+		3FFC9BE71BFC8558007CD981 /* TimeMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC9BE61BFC8558007CD981 /* TimeMath.swift */; };
+		3FFC9BEB1BFC8B81007CD981 /* OverflowClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC9BEA1BFC8B81007CD981 /* OverflowClock.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FFC9BC71BFC80A3007CD981 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FFC9BAA1BFC80A3007CD981 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FFC9BB11BFC80A3007CD981;
+			remoteInfo = "Salary Tracker";
+		};
+		3FFC9BD21BFC80A3007CD981 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FFC9BAA1BFC80A3007CD981 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FFC9BB11BFC80A3007CD981;
+			remoteInfo = "Salary Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F72A2341C01011C004FF750 /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		3FB0578C1BFF5EAA000EDA5F /* DecimalInputFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecimalInputFilter.swift; sourceTree = "<group>"; };
+		3FB057921BFF6F6E000EDA5F /* DatePickerDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatePickerDialog.swift; path = "../../../../Swift Files/DatePickerDialog.swift"; sourceTree = "<group>"; };
+		3FB057941BFF7E09000EDA5F /* UICheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICheckBox.swift; sourceTree = "<group>"; };
+		3FCF5C4E1C00614800D33086 /* Money.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
+		3FCF5C501C00615D00D33086 /* Salary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Salary.swift; sourceTree = "<group>"; };
+		3FCF5C521C00617100D33086 /* Currency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		3FFC9BB21BFC80A3007CD981 /* Salary Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Salary Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FFC9BB51BFC80A3007CD981 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FFC9BB71BFC80A3007CD981 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FFC9BBA1BFC80A3007CD981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FFC9BBC1BFC80A3007CD981 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FFC9BBF1BFC80A3007CD981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FFC9BC11BFC80A3007CD981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FFC9BC61BFC80A3007CD981 /* Salary TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Salary TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FFC9BCA1BFC80A3007CD981 /* Salary_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Salary_TrackerTests.swift; sourceTree = "<group>"; };
+		3FFC9BCC1BFC80A3007CD981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FFC9BD11BFC80A3007CD981 /* Salary TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Salary TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FFC9BD51BFC80A3007CD981 /* Salary_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Salary_TrackerUITests.swift; sourceTree = "<group>"; };
+		3FFC9BD71BFC80A3007CD981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FFC9BE41BFC80FF007CD981 /* Clock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
+		3FFC9BE61BFC8558007CD981 /* TimeMath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeMath.swift; sourceTree = "<group>"; };
+		3FFC9BEA1BFC8B81007CD981 /* OverflowClock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverflowClock.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FFC9BAF1BFC80A3007CD981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFC9BC31BFC80A3007CD981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFC9BCE1BFC80A3007CD981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FCF5C4D1C00613700D33086 /* Finance */ = {
+			isa = PBXGroup;
+			children = (
+				3FCF5C4E1C00614800D33086 /* Money.swift */,
+				3FCF5C501C00615D00D33086 /* Salary.swift */,
+				3FCF5C521C00617100D33086 /* Currency.swift */,
+			);
+			name = Finance;
+			sourceTree = "<group>";
+		};
+		3FFC9BA91BFC80A3007CD981 = {
+			isa = PBXGroup;
+			children = (
+				3FCF5C4D1C00613700D33086 /* Finance */,
+				3FFC9BB41BFC80A3007CD981 /* Salary Tracker */,
+				3FFC9BE31BFC80DC007CD981 /* SimpleTime */,
+				3FFC9BC91BFC80A3007CD981 /* Salary TrackerTests */,
+				3FFC9BD41BFC80A3007CD981 /* Salary TrackerUITests */,
+				3FFC9BB31BFC80A3007CD981 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FFC9BB31BFC80A3007CD981 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FFC9BB21BFC80A3007CD981 /* Salary Tracker.app */,
+				3FFC9BC61BFC80A3007CD981 /* Salary TrackerTests.xctest */,
+				3FFC9BD11BFC80A3007CD981 /* Salary TrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FFC9BB41BFC80A3007CD981 /* Salary Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				3FB057921BFF6F6E000EDA5F /* DatePickerDialog.swift */,
+				3FFC9BB51BFC80A3007CD981 /* AppDelegate.swift */,
+				3FFC9BB71BFC80A3007CD981 /* ViewController.swift */,
+				3FFC9BB91BFC80A3007CD981 /* Main.storyboard */,
+				3FFC9BBC1BFC80A3007CD981 /* Assets.xcassets */,
+				3FFC9BBE1BFC80A3007CD981 /* LaunchScreen.storyboard */,
+				3FFC9BC11BFC80A3007CD981 /* Info.plist */,
+				3FB0578C1BFF5EAA000EDA5F /* DecimalInputFilter.swift */,
+				3FB057941BFF7E09000EDA5F /* UICheckBox.swift */,
+				3F72A2341C01011C004FF750 /* SettingsController.swift */,
+			);
+			path = "Salary Tracker";
+			sourceTree = "<group>";
+		};
+		3FFC9BC91BFC80A3007CD981 /* Salary TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FFC9BCA1BFC80A3007CD981 /* Salary_TrackerTests.swift */,
+				3FFC9BCC1BFC80A3007CD981 /* Info.plist */,
+			);
+			path = "Salary TrackerTests";
+			sourceTree = "<group>";
+		};
+		3FFC9BD41BFC80A3007CD981 /* Salary TrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FFC9BD51BFC80A3007CD981 /* Salary_TrackerUITests.swift */,
+				3FFC9BD71BFC80A3007CD981 /* Info.plist */,
+			);
+			path = "Salary TrackerUITests";
+			sourceTree = "<group>";
+		};
+		3FFC9BE31BFC80DC007CD981 /* SimpleTime */ = {
+			isa = PBXGroup;
+			children = (
+				3FFC9BE41BFC80FF007CD981 /* Clock.swift */,
+				3FFC9BE61BFC8558007CD981 /* TimeMath.swift */,
+				3FFC9BEA1BFC8B81007CD981 /* OverflowClock.swift */,
+			);
+			name = SimpleTime;
+			path = "Salary Tracker";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FFC9BB11BFC80A3007CD981 /* Salary Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FFC9BDA1BFC80A3007CD981 /* Build configuration list for PBXNativeTarget "Salary Tracker" */;
+			buildPhases = (
+				3FFC9BAE1BFC80A3007CD981 /* Sources */,
+				3FFC9BAF1BFC80A3007CD981 /* Frameworks */,
+				3FFC9BB01BFC80A3007CD981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Salary Tracker";
+			productName = "Salary Tracker";
+			productReference = 3FFC9BB21BFC80A3007CD981 /* Salary Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FFC9BC51BFC80A3007CD981 /* Salary TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FFC9BDD1BFC80A3007CD981 /* Build configuration list for PBXNativeTarget "Salary TrackerTests" */;
+			buildPhases = (
+				3FFC9BC21BFC80A3007CD981 /* Sources */,
+				3FFC9BC31BFC80A3007CD981 /* Frameworks */,
+				3FFC9BC41BFC80A3007CD981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FFC9BC81BFC80A3007CD981 /* PBXTargetDependency */,
+			);
+			name = "Salary TrackerTests";
+			productName = "Salary TrackerTests";
+			productReference = 3FFC9BC61BFC80A3007CD981 /* Salary TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FFC9BD01BFC80A3007CD981 /* Salary TrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FFC9BE01BFC80A3007CD981 /* Build configuration list for PBXNativeTarget "Salary TrackerUITests" */;
+			buildPhases = (
+				3FFC9BCD1BFC80A3007CD981 /* Sources */,
+				3FFC9BCE1BFC80A3007CD981 /* Frameworks */,
+				3FFC9BCF1BFC80A3007CD981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FFC9BD31BFC80A3007CD981 /* PBXTargetDependency */,
+			);
+			name = "Salary TrackerUITests";
+			productName = "Salary TrackerUITests";
+			productReference = 3FFC9BD11BFC80A3007CD981 /* Salary TrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FFC9BAA1BFC80A3007CD981 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Guy Azran";
+				TargetAttributes = {
+					3FFC9BB11BFC80A3007CD981 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = G66W58TVAF;
+					};
+					3FFC9BC51BFC80A3007CD981 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = G66W58TVAF;
+						TestTargetID = 3FFC9BB11BFC80A3007CD981;
+					};
+					3FFC9BD01BFC80A3007CD981 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = G66W58TVAF;
+						TestTargetID = 3FFC9BB11BFC80A3007CD981;
+					};
+				};
+			};
+			buildConfigurationList = 3FFC9BAD1BFC80A3007CD981 /* Build configuration list for PBXProject "Salary Tracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FFC9BA91BFC80A3007CD981;
+			productRefGroup = 3FFC9BB31BFC80A3007CD981 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FFC9BB11BFC80A3007CD981 /* Salary Tracker */,
+				3FFC9BC51BFC80A3007CD981 /* Salary TrackerTests */,
+				3FFC9BD01BFC80A3007CD981 /* Salary TrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FFC9BB01BFC80A3007CD981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFC9BC01BFC80A3007CD981 /* LaunchScreen.storyboard in Resources */,
+				3FFC9BBD1BFC80A3007CD981 /* Assets.xcassets in Resources */,
+				3FFC9BBB1BFC80A3007CD981 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFC9BC41BFC80A3007CD981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFC9BCF1BFC80A3007CD981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FFC9BAE1BFC80A3007CD981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F72A2351C01011C004FF750 /* SettingsController.swift in Sources */,
+				3FB057951BFF7E09000EDA5F /* UICheckBox.swift in Sources */,
+				3FFC9BE51BFC80FF007CD981 /* Clock.swift in Sources */,
+				3FFC9BEB1BFC8B81007CD981 /* OverflowClock.swift in Sources */,
+				3FCF5C511C00615D00D33086 /* Salary.swift in Sources */,
+				3FFC9BB81BFC80A3007CD981 /* ViewController.swift in Sources */,
+				3FFC9BE71BFC8558007CD981 /* TimeMath.swift in Sources */,
+				3FCF5C531C00617100D33086 /* Currency.swift in Sources */,
+				3FB0578D1BFF5EAA000EDA5F /* DecimalInputFilter.swift in Sources */,
+				3FCF5C4F1C00614800D33086 /* Money.swift in Sources */,
+				3FB057931BFF6F6E000EDA5F /* DatePickerDialog.swift in Sources */,
+				3FFC9BB61BFC80A3007CD981 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFC9BC21BFC80A3007CD981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFC9BCB1BFC80A3007CD981 /* Salary_TrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFC9BCD1BFC80A3007CD981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFC9BD61BFC80A3007CD981 /* Salary_TrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FFC9BC81BFC80A3007CD981 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FFC9BB11BFC80A3007CD981 /* Salary Tracker */;
+			targetProxy = 3FFC9BC71BFC80A3007CD981 /* PBXContainerItemProxy */;
+		};
+		3FFC9BD31BFC80A3007CD981 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FFC9BB11BFC80A3007CD981 /* Salary Tracker */;
+			targetProxy = 3FFC9BD21BFC80A3007CD981 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FFC9BB91BFC80A3007CD981 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FFC9BBA1BFC80A3007CD981 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FFC9BBE1BFC80A3007CD981 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FFC9BBF1BFC80A3007CD981 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FFC9BD81BFC80A3007CD981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FFC9BD91BFC80A3007CD981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FFC9BDB1BFC80A3007CD981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Salary Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guyazran.Salary-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FFC9BDC1BFC80A3007CD981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Salary Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guyazran.Salary-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3FFC9BDE1BFC80A3007CD981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Salary TrackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guyazran.Salary-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Salary Tracker.app/Salary Tracker";
+			};
+			name = Debug;
+		};
+		3FFC9BDF1BFC80A3007CD981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Salary TrackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guyazran.Salary-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Salary Tracker.app/Salary Tracker";
+			};
+			name = Release;
+		};
+		3FFC9BE11BFC80A3007CD981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Salary TrackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guyazran.Salary-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Salary Tracker";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3FFC9BE21BFC80A3007CD981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Salary TrackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guyazran.Salary-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Salary Tracker";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FFC9BAD1BFC80A3007CD981 /* Build configuration list for PBXProject "Salary Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FFC9BD81BFC80A3007CD981 /* Debug */,
+				3FFC9BD91BFC80A3007CD981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FFC9BDA1BFC80A3007CD981 /* Build configuration list for PBXNativeTarget "Salary Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FFC9BDB1BFC80A3007CD981 /* Debug */,
+				3FFC9BDC1BFC80A3007CD981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FFC9BDD1BFC80A3007CD981 /* Build configuration list for PBXNativeTarget "Salary TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FFC9BDE1BFC80A3007CD981 /* Debug */,
+				3FFC9BDF1BFC80A3007CD981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FFC9BE01BFC80A3007CD981 /* Build configuration list for PBXNativeTarget "Salary TrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FFC9BE11BFC80A3007CD981 /* Debug */,
+				3FFC9BE21BFC80A3007CD981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FFC9BAA1BFC80A3007CD981 /* Project object */;
+}
