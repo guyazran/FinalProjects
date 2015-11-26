@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F026C711C07037800925FDF /* DatePickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F026C701C07037800925FDF /* DatePickerDialog.swift */; };
 		3F72A2351C01011C004FF750 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F72A2341C01011C004FF750 /* SettingsController.swift */; };
 		3FB0578D1BFF5EAA000EDA5F /* DecimalInputFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB0578C1BFF5EAA000EDA5F /* DecimalInputFilter.swift */; };
-		3FB057931BFF6F6E000EDA5F /* DatePickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB057921BFF6F6E000EDA5F /* DatePickerDialog.swift */; };
 		3FB057951BFF7E09000EDA5F /* UICheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB057941BFF7E09000EDA5F /* UICheckBox.swift */; };
 		3FCF5C4F1C00614800D33086 /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF5C4E1C00614800D33086 /* Money.swift */; };
 		3FCF5C511C00615D00D33086 /* Salary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF5C501C00615D00D33086 /* Salary.swift */; };
@@ -44,9 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F026C701C07037800925FDF /* DatePickerDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerDialog.swift; sourceTree = "<group>"; };
 		3F72A2341C01011C004FF750 /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 		3FB0578C1BFF5EAA000EDA5F /* DecimalInputFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecimalInputFilter.swift; sourceTree = "<group>"; };
-		3FB057921BFF6F6E000EDA5F /* DatePickerDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatePickerDialog.swift; path = "../../../../Swift Files/DatePickerDialog.swift"; sourceTree = "<group>"; };
 		3FB057941BFF7E09000EDA5F /* UICheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICheckBox.swift; sourceTree = "<group>"; };
 		3FCF5C4E1C00614800D33086 /* Money.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
 		3FCF5C501C00615D00D33086 /* Salary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Salary.swift; sourceTree = "<group>"; };
@@ -129,7 +129,7 @@
 		3FFC9BB41BFC80A3007CD981 /* Salary Tracker */ = {
 			isa = PBXGroup;
 			children = (
-				3FB057921BFF6F6E000EDA5F /* DatePickerDialog.swift */,
+				3F026C701C07037800925FDF /* DatePickerDialog.swift */,
 				3FFC9BB51BFC80A3007CD981 /* AppDelegate.swift */,
 				3FFC9BB71BFC80A3007CD981 /* ViewController.swift */,
 				3FFC9BB91BFC80A3007CD981 /* Main.storyboard */,
@@ -311,12 +311,12 @@
 				3FFC9BE51BFC80FF007CD981 /* Clock.swift in Sources */,
 				3FFC9BEB1BFC8B81007CD981 /* OverflowClock.swift in Sources */,
 				3FCF5C511C00615D00D33086 /* Salary.swift in Sources */,
+				3F026C711C07037800925FDF /* DatePickerDialog.swift in Sources */,
 				3FFC9BB81BFC80A3007CD981 /* ViewController.swift in Sources */,
 				3FFC9BE71BFC8558007CD981 /* TimeMath.swift in Sources */,
 				3FCF5C531C00617100D33086 /* Currency.swift in Sources */,
 				3FB0578D1BFF5EAA000EDA5F /* DecimalInputFilter.swift in Sources */,
 				3FCF5C4F1C00614800D33086 /* Money.swift in Sources */,
-				3FB057931BFF6F6E000EDA5F /* DatePickerDialog.swift in Sources */,
 				3FFC9BB61BFC80A3007CD981 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
