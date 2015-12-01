@@ -2,46 +2,46 @@
 <items version="2" >
 
     <item
-        jar="/Users/guyazran/Desktop/Development/Mobile/Projects/Android/SalaryTracker/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
+        jar="/Users/guyazran/Desktop/Development/Mobile/App Course/FinalProjects/android/SalaryTracker/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="379471b2bd17d9737c050345c08e8c7d16589784">
-        <dex dex="/Users/guyazran/Desktop/Development/Mobile/Projects/Android/SalaryTracker/app/build/intermediates/pre-dexed/release/classes-fa371426211aac2b1bfb18d27101f1bc14fe5bb0.jar" />
+        <dex dex="/Users/guyazran/Desktop/Development/Mobile/App Course/FinalProjects/android/SalaryTracker/app/build/intermediates/pre-dexed/release/classes-f808cfe0878a530277cad2ce5d38c8eaa023ea06.jar" />
+    </item>
+    <item
+        jar="/Users/guyazran/Desktop/Development/Mobile/App Course/FinalProjects/android/SalaryTracker/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/guyazran/Desktop/Development/Mobile/App Course/FinalProjects/android/SalaryTracker/app/build/intermediates/pre-dexed/release/classes-1a3947e029000957f08bd64b2875c3de057d01ab.jar" />
+    </item>
+    <item
+        jar="/Users/guyazran/Desktop/Development/Mobile/App Course/FinalProjects/android/SalaryTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/guyazran/Desktop/Development/Mobile/App Course/FinalProjects/android/SalaryTracker/app/build/intermediates/pre-dexed/release/classes-8c9ef98744cd839e8219c9c6dd024575badda9bf.jar" />
     </item>
     <item
         jar="/Users/guyazran/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="/Users/guyazran/Desktop/Development/Mobile/Projects/Android/SalaryTracker/app/build/intermediates/pre-dexed/release/support-annotations-23.1.1-b4dd4d228567b22e9f8e035f9efcd745f75809bc.jar" />
+        <dex dex="/Users/guyazran/Desktop/Development/Mobile/App Course/FinalProjects/android/SalaryTracker/app/build/intermediates/pre-dexed/release/support-annotations-23.1.1-b4dd4d228567b22e9f8e035f9efcd745f75809bc.jar" />
     </item>
     <item
-        jar="/Users/guyazran/Desktop/Development/Mobile/Projects/Android/SalaryTracker/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="/Users/guyazran/Desktop/Development/Mobile/Projects/Android/SalaryTracker/app/build/intermediates/pre-dexed/release/internal_impl-23.1.1-b7752839398842295feb864920a7c9e3fe89560d.jar" />
-    </item>
-    <item
-        jar="/Users/guyazran/Desktop/Development/Mobile/Projects/Android/SalaryTracker/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="/Users/guyazran/Desktop/Development/Mobile/Projects/Android/SalaryTracker/app/build/intermediates/pre-dexed/release/classes-6cd7d694c4a0baec54718608cf143cf3ffb6ec44.jar" />
-    </item>
-    <item
-        jar="/Users/guyazran/Desktop/Development/Mobile/Projects/Android/SalaryTracker/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jar="/Users/guyazran/Desktop/Development/Mobile/App Course/FinalProjects/android/SalaryTracker/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="09c5e804bc67fc0580360043dff067df574a60d4">
-        <dex dex="/Users/guyazran/Desktop/Development/Mobile/Projects/Android/SalaryTracker/app/build/intermediates/pre-dexed/release/classes-d81fbefe5da561cd185039de9c3585fe5fc58e62.jar" />
+        <dex dex="/Users/guyazran/Desktop/Development/Mobile/App Course/FinalProjects/android/SalaryTracker/app/build/intermediates/pre-dexed/release/classes-c0faf19628865afe94700cc7f5db2d4d5c59ddee.jar" />
     </item>
     <item
-        jar="/Users/guyazran/Desktop/Development/Mobile/Projects/Android/SalaryTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jar="/Users/guyazran/Desktop/Development/Mobile/App Course/FinalProjects/android/SalaryTracker/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="/Users/guyazran/Desktop/Development/Mobile/Projects/Android/SalaryTracker/app/build/intermediates/pre-dexed/release/classes-81f572289bfa4fad5443cba282fcb97e6b98aa33.jar" />
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/guyazran/Desktop/Development/Mobile/App Course/FinalProjects/android/SalaryTracker/app/build/intermediates/pre-dexed/release/internal_impl-23.1.1-3a095038e9d3ba76d0fcb2642636f2f81f57983d.jar" />
     </item>
 
 </items>

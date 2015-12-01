@@ -166,7 +166,14 @@ public class TimerCalculateSalaryFragment extends Fragment implements AddTimerDi
         } catch (JSONException e) {
             e.printStackTrace();
         }
-        timerListAdapter.notifyDataSetChanged();
+
+        handler.post(new Runnable() {
+            @Override
+            public void run() {
+                timerListAdapter.notifyDataSetChanged();
+            }
+        });
+
         if (timers.size() > 0) {
             startTimers();
         }
@@ -215,10 +222,7 @@ public class TimerCalculateSalaryFragment extends Fragment implements AddTimerDi
         timerListAdapter.notifyItemInserted(0);
         layoutManager.scrollToPosition(0);
 
-        if (timers.size() == 1) {
-            //startTimers();
-            getActivity().registerReceiver(timeUpdatedReceiver, new IntentFilter(Intent.ACTION_TIME_TICK));
-        }
+        startTimers();
 
         //hide keyboard after adding a new item to the list
         InputMethodManager imm = (InputMethodManager) getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
@@ -234,6 +238,9 @@ public class TimerCalculateSalaryFragment extends Fragment implements AddTimerDi
     public void stopTimers() {
         if (timeUpdatedReceiver != null && timers.size() > 0) {
             getActivity().unregisterReceiver(timeUpdatedReceiver);
+        }
+        if (timers!= null) {
+            timers.clear();
         }
     }
 
