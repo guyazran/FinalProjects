@@ -36,6 +36,19 @@ in the android and iOS apps there are 2 settings options that subtly customize t
 
 
 
+Web:
+this is a simple game based on Nintendo’s Super Mario franchise. the game is built in HTML, CSS and javascript. the objective of the game is to control Mario to collect coins that increase your score to 1000 points while avoiding the enemy. making contact with the enemy will decrease your life. when your lives reach 0, you have lost the game.
+
+how does it work:
+there are a few main functions that runs using setInterval() that updates the UI every few milliseconds. the coins are generated in a random fashion in a range from the floor to as high as Mario can jump.
+
+Controls:
+in order to avoid page scrolling, the controls are based on WASD directions.
+w - jump
+a - move left
+d - move right
+
+
 this is my project. enjoy!
 
 
