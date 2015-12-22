@@ -42,12 +42,22 @@ this is a simple game based on Nintendo’s Super Mario franchise. the game is b
 how does it work:
 there are a few main functions that runs using setInterval() that updates the UI every few milliseconds. the coins are generated in a random fashion in a range from the floor to as high as Mario can jump.
 
-Controls:
+pc browser game:
+the folder “mario” holds the pc browser game. it can be played by opening the index.html file in a browser.
+controls -
 in order to avoid page scrolling, the controls are based on WASD directions.
 w - jump
 a - move left
 d - move right
 
+mobile web application:
+this app is fully mobile compatible. in the folder “mario_mobile” you will find the game in an optimized version for mobile phones. i have already uploaded the game to my server, so that it can be tested on mobile. check it out here: 
+http://www.guyazra.com/mario
+controls -
+the arrows on the bottom left of the screen are the controls
+left - move left
+right - move right
+up - jump
 
 this is my project. enjoy!
 

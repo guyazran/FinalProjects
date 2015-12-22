@@ -1,0 +1,107 @@
+/* CSS Document */
+
+* {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none; /* Disable selection/copy in UIWebView */
+}
+
+body{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:1em;
+	background-color:silver;
+}
+
+.all_site{
+	background-color:white;
+	max-width:900px;
+	margin:0 auto;
+	
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.game{
+	width:100%;
+	height:400px;
+	border:2px solid black;
+	box-sizing:border-box;
+	background-image:url(../_images/background.png);
+
+	background-size:100% 100%;
+	position:relative;
+}
+
+.game .stats{
+	float:left;
+	background-color:rgba(255,255,255,0.5);
+	padding:10px;
+	font-size:1.3em;
+	width:150px;
+	
+	border-radius: 0px 0px 27px 0px;
+	-moz-border-radius: 0px 0px 27px 0px;
+	-webkit-border-radius: 0px 0px 27px 0px;
+	border: 0px solid #000000;
+}
+
+.game .mario{
+	position:absolute;
+	top:246px;
+	left:400px;
+}
+
+.game .coin{
+	position:absolute;
+	top:69px;
+	left:300px;
+}
+
+.game .enemy{
+	position:absolute;
+	top:289px;
+	left:20px;
+}
+
+.game .controls{
+	/*width: 100px;
+	height: 63px;*/
+	width: 130px;
+	height: 93px;
+
+	background-color: rgba(255, 255, 255, 0.5);
+	position: absolute;
+
+	/*top: 335px;*/
+	top: 305px;
+}
+
+.game .controls .arrow{
+	/*width: 30px;*/
+	width: 40px;
+}
+
+.game .controls .arrow_left{
+	transform: rotate(90deg);
+	position: relative;
+	/*top: 25px;*/
+	top: 45px;
+	left: 5px;
+}
+
+.game .controls .arrow_right{
+	transform: rotate(-90deg);
+	position: relative;
+	/*top: 25px;*/
+	top: 45px;
+	right: 5px;
+}
+
+.game .controls .arrow_up{
+	transform: rotate(180deg);
+	position: relative;
+	top: 2px;
+}
+
+
+
