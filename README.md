@@ -51,8 +51,7 @@ a - move left
 d - move right
 
 mobile web application:
-this app is fully mobile compatible. in the folder “mario_mobile” you will find the game in an optimized version for mobile phones. i have already uploaded the game to my server, so that it can be tested on mobile. check it out here: 
-http://www.guyazra.com/mario
+this app is fully mobile compatible. in the folder “mario_mobile” you will find the game in an optimized version for mobile phones.
 controls -
 the arrows on the bottom left of the screen are the controls
 left - move left
